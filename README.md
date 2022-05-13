@@ -14,12 +14,6 @@ The api project expects a mongo database, and a `MONGODB_URL` environment variab
 
 The project is divided into three pieces:
 
-├── api
-
-├── app
-
-├── cli
-
 ### The api piece
 
 The api is a typescript builded with express and mongo where all push notifications to expo will happen. The api is the entrypoint of to trigger notifications.
