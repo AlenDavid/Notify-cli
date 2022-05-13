@@ -15,7 +15,9 @@ The api project expects a mongo database, and a `MONGODB_URL` environment variab
 The project is divided into three pieces:
 
 ├── api
+
 ├── app
+
 ├── cli
 
 ### The api piece
