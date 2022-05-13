@@ -2,6 +2,14 @@
 
 Simple, cli-first, mobile push notification across systems.
 
+## Install
+
+In each folder, run `npm install`. The expected node version is 14. (Higher versions are probably going to work).
+
+### Database
+
+The api project expects a mongo database, and a `MONGODB_URL` environment variable set.
+
 ## Project setup
 
 The project is divided into three pieces:
