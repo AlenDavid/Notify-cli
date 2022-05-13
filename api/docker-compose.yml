@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  database:
+    image: mongo:5.0
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: notify
+      MONGO_INITDB_ROOT_PASSWORD: notify
+    ports:
+      - "27017:27017"

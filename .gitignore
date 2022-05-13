@@ -1,0 +1,5 @@
+# node related things
+node_modules
+
+# mobile files
+*.plist

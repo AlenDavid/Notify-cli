@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+
+# build folders
+build/**
+dist/**
+out/**
+coverage/**
+.cache/**
+
+# others
+**/__snapshots__/**
